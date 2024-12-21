@@ -16,7 +16,7 @@ def retail():
         task_id='upload_csv_to_gcs',
         src='include/dataset/online_retail.csv',
         dst='raw/online_retail.csv',
-        bucket='marclamberti_online_retail',
+        bucket='gouru_online_retail',
         gcp_conn_id='gcp',
         mime_type='text/csv',
     )
