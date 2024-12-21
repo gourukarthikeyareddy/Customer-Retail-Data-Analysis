@@ -2,8 +2,8 @@ version: 2
 
 sources:
   - name: retail
-    database: airtube-390719 # Put the project id!
+    database: airflow-retail-445319
 
     tables:
       - name: raw_invoices
-			- name: country
+      - name: country
